@@ -8,8 +8,8 @@
 }
 
 .weather-container{
-    height: 80vh;
-    width: 65vw;
+    height: 85vh;
+    width: 70vw;
     background-color: white;
     border-radius: 30px;
     display: flex;

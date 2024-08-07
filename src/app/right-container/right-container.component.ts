@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-right-container',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './right-container.component.html',
   styleUrl: './right-container.component.css'
 })
