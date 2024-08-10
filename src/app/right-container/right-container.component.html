@@ -87,7 +87,53 @@
             </div>
         </div>
         <div class="right-container-todays-highlight">
-
+            <h4 class="right-container-today-highlight-title">Estadisticas de hoy</h4>
+            <div class="right-container-today-highlight-cards">
+                <div class="right-container-today-highlight-card">
+                    <h5 class="right-container-today-highlight-card-title">Indice UV</h5>
+                    <div class="gauge">
+                        <div class="gauge__body">
+                            <div class="gauge__fill"></div>
+                            <div class="gauge__cover"></div>
+                        </div>
+                    </div>
+                    <div class="right-container-today-highlight-value">5</div>
+                </div>
+                <div class="right-container-today-highlight-card">
+                    <h5 class="right-container-today-highlight-card-title">Estado del viento</h5>
+                    <div class="wind-status-value">7.70 <span class="unit">Km/hr</span></div>
+                    <div class="wind-status-logo"><img src="assets/wind.png" alt=""></div>
+                </div>
+                <div class="right-container-today-highlight-card">
+                    <h5 class="right-container-today-highlight-card-title">Amanacer y Anochecer</h5>
+                    <div class="sunrise-sunset-value">
+                        <div class="sunrise">
+                            <div class="sunrise-img"><img src="assets/sunrise.png" alt=""></div>
+                            <div class="sunrise-time">6:35 AM</div>
+                        </div>
+                        <div class="sunset">
+                            <div class="sunset-img"><img src="assets/sunset.png" alt=""></div>
+                            <div class="sunset-time">7:45 PM</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="right-container-today-highlight-card">
+                    <h5 class="right-container-today-highlight-card-title">Humedad</h5>
+                    <div class="humidity-status-value">7<sup class="unit">%</sup></div>
+                    <div class="humidity-summary">Normal <span><fa-icon class="fa-xs" [icon]="faThumbsUp"></fa-icon></span></div>
+                </div>
+                <div class="right-container-today-highlight-card">
+                    <h5 class="right-container-today-highlight-card-title">Visibilidad</h5>
+                    <div class="humidity-status-value">7.5<span class="unit">Km</span></div>
+                    <div class="humidity-summary">Normal <span><fa-icon class="fa-xs" [icon]="faThumbsUp"></fa-icon></span></div>
+                </div>
+                <div class="right-container-today-highlight-card">
+                    <h5 class="right-container-today-highlight-card-title">Calidad del aire</h5>
+                    <div class="humidity-status-value">65</div>
+                    <div class="humidity-summary">Malo <span><fa-icon class="fa-xs" [icon]="faThumbsDown"></fa-icon></span></div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
