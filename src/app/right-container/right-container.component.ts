@@ -14,7 +14,7 @@ import { faThumbsDown } from '@fortawesome/free-solid-svg-icons';
     FontAwesomeModule
   ],
   templateUrl: './right-container.component.html',
-  styleUrl: './right-container.component.css'
+  styleUrls: ['./right-container.component.css','./stadisticsDay.css']
 })
 export class RightContainerComponent {
 
